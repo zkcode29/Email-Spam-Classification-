@@ -52,6 +52,6 @@ The goal of this project is to develop an accurate machine learning model to cla
 
 
 ## Author
-Izaz khan|Artificial Intelligence 
+Izaz khan || Artificial Intelligence 
 
 

@@ -2,9 +2,6 @@
 
 A complete machine learning pipeline to classify emails as **Spam** or **Ham** using advanced Natural Language Processing (NLP) techniques and classification algorithms.
 
->  This project was built during **Data Science Week 03** of the **Digital Empowerment Network** program under the mentorship of **Ali Mohiuddin Khan**.
-
----
 
 ---
 

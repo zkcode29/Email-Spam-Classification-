@@ -40,6 +40,12 @@ The goal of this project is to develop an accurate machine learning model to cla
 
 ---
 
+1. Data Loading         --> 2. EDA & Visualization  --> 3. Preprocessing &      --> 4. Model Training &     --> 5. Model Evaluation --> 6. Model Deployment
+   (spam_dataset.csv)       (Understanding data)      Feature Engineering       Hyperparameter Tuning     (Metrics Analysis)      (Streamlit App)
+                                                      (Cleaning & creating      (GridSearchCV)
+                                                       numerical features)
+
+
 ## Author
 Izaz khan|Artificial Intelligence 
 

@@ -40,10 +40,15 @@ The goal of this project is to develop an accurate machine learning model to cla
 
 ---
 
-1. Data Loading         --> 2. EDA & Visualization  --> 3. Preprocessing &      --> 4. Model Training &     --> 5. Model Evaluation --> 6. Model Deployment
-   (spam_dataset.csv)       (Understanding data)      Feature Engineering       Hyperparameter Tuning     (Metrics Analysis)      (Streamlit App)
-                                                      (Cleaning & creating      (GridSearchCV)
-                                                       numerical features)
+| Step | Stage                               | Description                                                                                     |
+| ---- | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 1    | Data Loading                        | Load the dataset (`spam_dataset.csv`) using `pandas.read_csv()`                                 |
+| 2    | EDA & Visualization                 | Explore data structure, missing values, and class distribution with visual tools                |
+| 3    | Preprocessing & Feature Engineering | Clean text (remove noise, lowercase, stopwords), and create features (length, word count, etc.) |
+| 4    | Model Training & Tuning             | Use `Pipeline` + `GridSearchCV` with models like Logistic Regression, SVM, and Random Forest    |
+| 5    | Model Evaluation                    | Assess metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC                    |
+| 6    | Model Deployment                    | Deploy final model using Streamlit to create a real-time spam detection web app                 |
+
 
 
 ## Author
